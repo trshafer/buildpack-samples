@@ -36,7 +36,7 @@ on:
       - '"master"'
 
 env:
-  PROJECT_ID: 'tshafer-gke-dev' # TODO: update to your Google Cloud project ID
+  PROJECT_ID: 'tshafer-testing-orgpolicy' # TODO: update to your Google Cloud project ID
   REGION: 'us-central1' # TODO: update to your region
   SERVICE: 'buildpack-from-github' # TODO: update to your service name
 
