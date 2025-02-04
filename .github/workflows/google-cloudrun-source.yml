@@ -67,7 +67,7 @@ jobs:
         with:
           service: '${{ env.SERVICE }}'
           region: '${{ env.REGION }}'
-          project: '${{ env.PROJECT_ID }}'
+          project_id: '${{ env.PROJECT_ID }}'
           # NOTE: If using a different source folder, update the image name below:
           source: './sample-functions-framework-node'
 
